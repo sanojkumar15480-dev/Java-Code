@@ -7,8 +7,8 @@ public class CheckEvenodd
     {
         int num;
         System.out.println("enter the Integer number:");
-        Scanner input = new Scanner(System.in);
-        num = input.nextInt();
+        Scanner in = new Scanner(System.in);
+        num = in.nextInt();
         if(num%2 ==0)
         System.out.println("Enter the number is even:");
         else
